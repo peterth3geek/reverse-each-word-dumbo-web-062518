@@ -3,8 +3,7 @@ def reverse_each_word(string)
   thing = [string.split(" ")]
   other = []
     thing.each do |word|
-      other.unshift (word)
-
+      other.push (word)
     end
 "#{thing.join(" ")}"
   end
